@@ -18,11 +18,6 @@ import dto.Board;
 public class BoardListController extends HttpServlet {
 	
 	@Override
-	public void init(ServletConfig config) throws ServletException {
-		System.out.println("BoardListController.init() executed");
-	}
-	
-	@Override
 	protected void service(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		System.out.println("BoardListController.service() executed");
 		List<Board> boards = new ArrayList<>();
@@ -38,11 +33,6 @@ public class BoardListController extends HttpServlet {
 		
 		request.setAttribute("list", boards);
 		request.getRequestDispatcher("/WEB-INF/views/exam01/boardList.jsp").forward(request, response);
-	}
-	
-	@Override
-	public void destroy() {
-		System.out.println("BoardListController.destory() executed");
 	}
 
 }

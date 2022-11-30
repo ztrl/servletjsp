@@ -14,4 +14,18 @@
 			<a class="text-white" href="/servletjsp/exam02/ContentController">요청 방식</a>
 		</h6>
 	</li>
+
+	<li class="nav-item mb-2">
+		<h6 class="text-white">
+			<span class="mr-2">Exam03.</span>
+			<a class="text-white" href="/servletjsp/exam03/ContentController">Servlet life cycle (callback method)</a>
+		</h6>
+	</li>
+
+	<li class="nav-item mb-2">
+		<h6 class="text-white">
+			<span class="mr-2">Exam04.</span>
+			<a class="text-white" href="/servletjsp/exam04/ContentController">응답생성</a>
+		</h6>
+	</li>
 </ul>

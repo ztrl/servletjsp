@@ -4,7 +4,7 @@
 
 <div class="card m-2">
 	<div class="card-header">
-		요청 방식(get/post)
+		content.jsp
 	</div>
 	<div class="card-body">
 		<h4>GET 방식</h4>

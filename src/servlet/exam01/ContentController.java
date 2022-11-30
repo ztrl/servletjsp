@@ -16,12 +16,7 @@ import dto.Board;
 
 @WebServlet(name="exam01.ContentController", urlPatterns="/exam01/ContentController")
 public class ContentController extends HttpServlet {
-	
-	@Override
-	public void init(ServletConfig config) throws ServletException {
-		System.out.println("ContentController.init() executed");
-	}
-	
+
 	@Override
 	protected void service(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		System.out.println("ContentController.service() executed");
@@ -29,11 +24,6 @@ public class ContentController extends HttpServlet {
 		
 		
 		request.getRequestDispatcher("/WEB-INF/views/exam01/content.jsp").forward(request, response);
-	}
-	
-	@Override
-	public void destroy() {
-		System.out.println("ContentController.destory() executed");
 	}
 
 }

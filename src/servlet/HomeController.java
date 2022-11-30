@@ -11,19 +11,13 @@ import javax.servlet.http.HttpServletResponse;
 
 //@WebServlet(name="HomeController", urlPatterns="/HomeController")
 public class HomeController extends HttpServlet{
-	@Override
-	public void init(ServletConfig config) throws ServletException {
-		System.out.println("HomeController.init() executed");
-	}
 	
+	//클라이언트가 요청할 때마다 콜백
+	//요청 처리
 	@Override
 	protected void service(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		System.out.println("HomeController.service() executed");
 		request.getRequestDispatcher("/WEB-INF/views/home.jsp").forward(request, response);
 	}
 	
-	@Override
-	public void destroy() {
-		System.out.println("HomeController.destory() executed");
-	}
 }
