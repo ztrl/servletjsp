@@ -35,11 +35,39 @@
 			<a class="text-white" href="/servletjsp/exam05/ContentController">요청 정보 얻기</a>
 		</h6>
 	</li>
+	
+	<li class="nav-item mb-2">
+		<h6 class="text-white">
+			<span class="mr-2">Exam06.</span>
+			<a class="text-white" href="/servletjsp/exam06/ContentController">상태유지  - Cookie(클라이언트에 저장)</a>
+		</h6>
+	</li>
+	
+	<li class="nav-item mb-2">
+		<h6 class="text-white">
+			<span class="mr-2">Exam07.</span>
+			<a class="text-white" href="/servletjsp/exam07/ContentController">상태유지  - HttpSession(서버에 저장, 해당 클라이언트)</a>
+		</h6>
+	</li>
 
 	<li class="nav-item mb-2">
 		<h6 class="text-white">
-			<span class="mr-2">Exam05.</span>
-			<a class="text-white" href="/servletjsp/exam06/ContentController">상태유지  - 쿠키</a>
+			<span class="mr-2">Exam08.</span>
+			<a class="text-white" href="/servletjsp/exam08/ContentController">상태유지  - ServletContext(서버에 저장, 모든 클라이언트)</a>
+		</h6>
+	</li>
+	
+	<li class="nav-item mb-2">
+		<h6 class="text-white">
+			<span class="mr-2">Exam09.</span>
+			<a class="text-white" href="/servletjsp/HomeController">필터 테스트</a>
+		</h6>
+	</li>
+	
+	<li class="nav-item mb-2">
+		<h6 class="text-white">
+			<span class="mr-2">Exam10.</span>
+			<a class="text-white" href="/servletjsp/exam10/ContentController">예외 처리</a>
 		</h6>
 	</li>
 </ul>
