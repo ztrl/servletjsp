@@ -12,7 +12,7 @@
 		html.jsp
 	</div>
 	<div class="card-body">
-		<a href="/servletjsp/exam04/HtmlResponseController" class="btn btn-info btn-sm">HTML 응답 생성</a>
+		<a href="${pageContext.request.contextPath}/exam04/HtmlResponseController" class="btn btn-info btn-sm">HTML 응답 생성</a>
 		<%-- <a href="#" class="btn btn-info btn-sm">링크1</a> --%>
 		<!-- <a href="#" class="btn btn-info btn-sm">링크2</a> -->
 	</div>
